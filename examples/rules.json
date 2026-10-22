@@ -1,0 +1,2 @@
+{"rules":[{"type":"not_null","column":"id"},{"type":"unique","column":"id"},{"type":"range","column":"amount","min":0,"max":10000},{"type":"allowed_values","column":"status","values":["paid","pending","cancelled"]},{"type":"row_count_change","previous":3,"max_fraction":0.2}]}
+
